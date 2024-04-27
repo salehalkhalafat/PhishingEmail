@@ -7,5 +7,4 @@ urlpatterns = [
     path('', views.HomePage, name='home'),
     path('phishing/', views.phishingPage, name='phishing'),
     path('fetchem/', views.seperate, name='fetch'),
-
 ]
